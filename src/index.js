@@ -53,7 +53,7 @@ function onRenderList(array) {
 function onRenderCountryCard(array) {
     return array
     .map(
-        ({ name, capital, population, flags, languages }) =>
+        ({name, capital, population, flags, languages}) =>
         `<div class = "country-item"><img src="${flags.svg}" 
         alt="${"name.official"} width = "64" height = "40">
         <h1 class="country-text">${name.official}</h1></div>
